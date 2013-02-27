@@ -20,7 +20,7 @@ And I should see "Express Delivery  -  <Express>"
 
 Examples:
 	|Delivery_Country |Free	   |Shipping_Amt |Express | 
-	|Australia        |$0.00   |$14.99		 |$22.99  |
+	|Australia        |$0.00   |$14.99	 |$22.99  |
 
 
 @mink:selenium2 
