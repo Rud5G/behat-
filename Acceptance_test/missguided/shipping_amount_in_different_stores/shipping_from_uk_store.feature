@@ -15,8 +15,8 @@ And I should see "Saturday Delivery  -  <Saturday>"
  
 
 Examples:
-	|Delivery_Country|Shipping_Amt	    |Next_day	|Saver | Saturday  |
-	|United Kingdom	 |£2.95 			|£3.95 		|£1.95 | £5.50	   |
+	|Delivery_Country|Shipping_Amt |Next_day|Saver | Saturday  |
+	|United Kingdom	 |£2.95        |£3.95 	|£1.95 | £5.50	   |
 	
 
 
