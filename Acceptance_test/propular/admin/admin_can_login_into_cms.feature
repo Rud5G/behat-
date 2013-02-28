@@ -6,9 +6,9 @@ Feature: Admin log in into cms
   @mink:selenium2
   Scenario: Admin can log in into cms
     Given I am on "/Security/login?BackURL=%2Fadmin"
-   When I fill in "Email" with "admin"
-   And I fill in "Password" with "password"
-   And I press "Log in" 
+    When I fill in "Email" with "admin"
+    And I fill in "Password" with "password"
+    And I press "Log in" 
     And I wait "1000" milliseconds
     Then I am on "/admin"
     And I should see "SilverStripe" 
