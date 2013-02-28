@@ -29,5 +29,5 @@ Scenario: It moves backward the width of the showcase
   Given I am on "/"
    And I know the initial distance
    When I follow "Next"
-	 And I wait "1000" milliseconds
+   And I wait "1000" milliseconds
    Then showcase content moves "-572"
