@@ -6,10 +6,10 @@ Feature: User sees Dashboard
   @mink:selenium2
   Scenario: Dashboard is in the person card page
     Given I am on "/Security/login/"
-	  When I fill in "Email" with "swetapandey@hotmail.com"
-	  When I fill in "Password" with "always"
-	  When I press "Log in" 
-	  And I wait "10000" milliseconds
+    When I fill in "Email" with "swetapandey@hotmail.com"
+    And I fill in "Password" with "always"
+    And I press "Log in" 
+    And I wait "1000" milliseconds
     Then I should see "Dashboard"
     
    
