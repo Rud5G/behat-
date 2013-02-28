@@ -7,7 +7,7 @@ Feature: User sees skin cards
   Scenario: Skin is in the person card page
     Given I am on "/Security/login/"
     When I fill in "Email" with "swetapandey@hotmail.com"
-    When I fill in "Password" with "always"
+    And I fill in "Password" with "always"
     And I press "Log in" 
     And I wait "2000" milliseconds
     And I am on "/media/view/file/1302/"
