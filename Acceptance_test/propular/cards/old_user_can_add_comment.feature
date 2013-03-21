@@ -6,14 +6,14 @@ Feature: User sees skin cards
   @mink:selenium2
   Scenario: Skin is in the person card page
     Given I am on "/Security/login/"
-	  When I fill in "Email" with "swetapandey@hotmail.com"
-	  When I fill in "Password" with "always"
-	  When I press "Log in" 
-	  And I wait "20000" milliseconds
-	  And I am on "/media/view/file/1302/"
-	  And I wait "200000" milliseconds
-	  And I fill in "Comment" with "Like this"
-	  And I press "action_doPostComment"
-	  And I wait "5000" milliseconds
-      Then I should see "Like this"
+    When I fill in "Email" with "swetapandey@hotmail.com"
+    And I fill in "Password" with "always"
+    And I press "Log in" 
+    And I wait "2000" milliseconds
+    And I am on "/media/view/file/1302/"
+    And I wait "2000" milliseconds
+    And I fill in "Comment" with "Like this"
+    And I press "action_doPostComment"
+    And I wait "5000" milliseconds
+    Then I should see "Like this"
 
